@@ -107,7 +107,7 @@
 
     <div bind:this={bannerRef} class="w-full h-[320px] sm:h-[480px] rounded-3xl overflow-hidden shadow-sm relative bg-[#dfdcd2]">
       <img
-        src="/images/hero.jpg"
+        src="images/hero.jpg"
         alt="Apex Barber Studio Architecture"
         class="w-full h-full object-cover"
       />
@@ -124,7 +124,7 @@
       <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-12 gap-6 items-center bg-[#f4f2ea] p-6 sm:p-8 rounded-3xl border border-[#d2cebf]/60 shadow-xs">
         <div class="sm:col-span-5 h-64 rounded-2xl overflow-hidden bg-[#dfdcd2]">
           <img
-            src="/images/about-comfort.jpg"
+            src="images/about-comfort.jpg"
             alt="Haircut Craft Comfort"
             class="w-full h-full object-cover"
           />
@@ -150,7 +150,7 @@
 
       <div class="lg:col-span-5 h-full rounded-3xl overflow-hidden bg-[#dfdcd2] relative min-h-[360px]">
         <img
-          src="/images/tariq.jpg"
+          src="images/tariq.jpg"
           alt="Master Barber Tariq Ahmed"
           class="w-full h-full object-cover"
         />

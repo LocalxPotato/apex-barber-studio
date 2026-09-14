@@ -7,7 +7,7 @@ export const barbers = [
     experience: '12+ Years Exp',
     rating: 4.98,
     reviewsCount: 84,
-    avatar: '/images/tariq.jpg',
+    avatar: 'images/tariq.jpg',
     bio: 'Trained under international master barbers. Tariq specializes in precision geometry fades and straight razor edging.',
     availableDays: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
   },
@@ -19,7 +19,7 @@ export const barbers = [
     experience: '8 Years Exp',
     rating: 4.95,
     reviewsCount: 62,
-    avatar: '/images/ron.jpg',
+    avatar: 'images/ron.jpg',
     bio: 'Ron is renowned for seamless fade blending and intricate hair line designs. His sharp eye for symmetry ensures a flawless finish.',
     availableDays: ['Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
   },
@@ -31,7 +31,7 @@ export const barbers = [
     experience: '9 Years Exp',
     rating: 4.92,
     reviewsCount: 51,
-    avatar: '/images/samir.jpg',
+    avatar: 'images/samir.jpg',
     bio: 'Samir combines organic oil treatments with classic blade sculpting to tailor beard profiles to your jawline.',
     availableDays: ['Mon', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
   }

@@ -19,12 +19,12 @@
   let selectedServiceIndex = 2;
 
   const serviceImages = {
-    'standard-cut': '/images/service-cut.jpg',
-    'beard-trim-sculpt': '/images/service-beard.jpg',
-    'executive-combo': '/images/service-combo.jpg',
-    'kids-student-cut': '/images/service-kids.jpg',
-    'hot-razor-shave': '/images/service-beard.jpg',
-    'scalp-detox-color': '/images/service-cut.jpg'
+    'standard-cut': 'images/service-cut.jpg',
+    'beard-trim-sculpt': 'images/service-beard.jpg',
+    'executive-combo': 'images/service-combo.jpg',
+    'kids-student-cut': 'images/service-kids.jpg',
+    'hot-razor-shave': 'images/service-beard.jpg',
+    'scalp-detox-color': 'images/service-cut.jpg'
   };
 
   $: filteredServices = activeCategory === 'All'
@@ -124,7 +124,7 @@
 
       <div bind:this={featuredImageRef} class="lg:col-span-4 h-72 rounded-2xl overflow-hidden bg-[#dfdcd2]">
         <img
-          src={serviceImages[featuredService.id] || '/images/service-cut.jpg'}
+          src={serviceImages[featuredService.id] || 'images/service-cut.jpg'}
           alt={featuredService.name}
           class="w-full h-full object-cover"
         />
